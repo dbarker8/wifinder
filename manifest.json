@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "WiFinder for Airbnb",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "content_scripts": [
     {
       "matches": ["*://*.airbnb.com/rooms/*"],
@@ -19,5 +19,9 @@
     "modal.html",
     "styles.css",
     "content.js"
+],
+"permissions": [
+  "*://vy1fbiczn2.execute-api.us-east-1.amazonaws.com/*",
+  "webRequest"
 ]
 }
